@@ -1,16 +1,19 @@
 *************
-Sunday Service Stack
+Meet The Stack
 *************
+
+A SMS app for collecting and presenting the topics for discussion during Sunday
+Service. Because if it's Sunday, it's Meet The Stack.
 
 
 Powered by `Django`_ and `Twilio`_.
 
 
-.. image:: https://travis-ci.org/RobSpectre/sunday-service-stack.svg?branch=master
-    :target: https://travis-ci.org/RobSpectre/sunday-service-stack
+.. image:: https://travis-ci.org/RobSpectre/meetthestack.com.svg?branch=master
+    :target: https://travis-ci.org/RobSpectre/meetthestack.com
 
-.. image:: https://codecov.io/gh/RobSpectre/sunday-service-stack/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/RobSpectre/sunday-service-stack
+.. image:: https://codecov.io/gh/RobSpectre/meetthestack.com/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/RobSpectre/meetthestack.com
 
 
 **Table of Contents**
@@ -29,14 +32,14 @@ Install this `Django`_ application by first cloning the repository.
 
 .. code-block:: bash
   
-    git clone https://github.com/RobSpectre/sunday-service-stack
+    git clone https://github.com/RobSpectre/meetthestack.com
 
 
 Install the Python dependencies.
 
 .. code-block:: bash
 
-    cd sunday-service-stack
+    cd meetthestack.com
     pip install -r requirements.txt
 
 
@@ -44,7 +47,7 @@ Create a local configuration file and customize with your settings.
 
 .. code-block:: bash
    
-    cd sunday_service_stack/sunday_service_stack
+    cd meetthestack.com/meetthestack
     cp local.sample local.py
 
 
@@ -79,13 +82,13 @@ To hack on the project, fork the repo and then clone locally.
 
 .. code-block:: bash
 
-    $ git clone https://github.com/RobSpectre/sunday-service-stack.git
+    $ git clone https://github.com/RobSpectre/meetthestack.com.git
 
 Move to the project directory.
 
 .. code-block:: bash
 
-    $ cd sunday-service-stack
+    $ cd meetthestack.com
 
 Install the Python dependencies (preferably in a virtualenv).
 
@@ -98,14 +101,14 @@ admin accounts you want to receive tips.
 
 .. code-block:: bash
 
-    $ cp sunday_service_stack/sunday_service_stack/local.sample sunday_service_stack/sunday_service_stack/local.py
-    $ vim sunday_service_stack/sunday_service_stack/local.py
+    $ cp meetthestack.com/meetthestack/local.sample meetthestack.com/meetthestack/local.py
+    $ vim meetthestack.com/meetthestack/local.py
 
 Move to the Django project root.
 
 .. code-block:: bash
 
-    $ cd sunday_service_stack
+    $ cd meetthestack.com
 
 Start the Django app.
 
