@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from twilio.twiml.messaging_response import MessagingResponse
 
-# Create your views here.
+from .decorators import twilio_view
+
+
+@twilio_view
+def index(request):
+    response = MessagingResponse()
+
+    response.message("Hello world.")
+
+    return response
