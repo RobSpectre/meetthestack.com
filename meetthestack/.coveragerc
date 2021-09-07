@@ -1,7 +1,12 @@
 [run]
 omit =
     ../.tox/*
-    tests/*
+    **/tests.py
+    **/tests/*
+    **/migrations/*
+    manage.py
+    meetthestack/wsgi.py
+    meetthestack/asgi.py
 
 [report]
 # Regexes for lines to exclude from consideration
