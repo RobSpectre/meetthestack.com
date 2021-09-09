@@ -70,7 +70,7 @@ class TwilioTestCase(TestCase):
 
     def assert_twiml(self, response):
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, "<Response")
+        self.assertContains(response, "Response>")
 
 
 @override_settings(TWILIO_AUTH_TOKEN="yyyyyyyy",
